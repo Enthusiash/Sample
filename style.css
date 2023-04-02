@@ -1,0 +1,90 @@
+nav {
+  background-color: transparent;
+  height: 50px;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+
+li h1 {
+  color: white;
+  padding: 0px;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  float: left;
+}
+.topnav-right {
+  float: right;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 70px;
+}
+body {
+  background-image: url("medicalbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.div1 {
+  width: 100%;
+  height: 200px;
+  border: 1px solid lightblue;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.question {
+  width: 300px;
+  height: 190px;
+  border: transparent;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+
+  background-image: url("medquestion.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.text {
+  font-size: 15px;
+  padding-left: 350px;
+  padding-top: 0%;
+  float: left;
+  color: white;
+  font-family: Comic Sans MS;
+}
+.container {
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 100px;
+}
